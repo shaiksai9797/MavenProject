@@ -6,11 +6,16 @@
   <packaging>war</packaging>
   <name>Mavenweb</name>
   <description>This is for tutorial</description>
-  <repositories>
+  <distributionManagement>
     <repository>
         <id>central</id>
         <name>INBASDPC08424-releases</name>
-        <url>http://172.19.82.9:8040/artifactory/Newrepo</url>
+        <url>http://172.19.82.9:8040/artifactory/Deploy</url>
     </repository>
-  </repositories>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>INBASDPC08424-snapshots</name>
+        <url>http://172.19.82.9:8040/artifactory/Deploy</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
