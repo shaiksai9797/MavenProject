@@ -10,12 +10,12 @@
     <repository>
         <id>central</id>
         <name>INBASDPC08424-releases</name>
-        <url>http://172.19.82.9:8040/artifactory/Deploy</url>
+        <url>http://172.19.82.9:8040/artifactory/Dummy</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>INBASDPC08424-snapshots</name>
-        <url>http://172.19.82.9:8040/artifactory/Deploy</url>
+        <url>http://172.19.82.9:8040/artifactory/Dummy</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
